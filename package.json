@@ -1,0 +1,20 @@
+{
+  "name": "x2y-web2droid-x2y-api",
+  "version": "1.0.0",
+  "description": "Converts any website URL to installable Android APK. A system that takes ANY website URL and spits out an installable Android APK by wrapping the website inside a customized WebView container—like a PWA on steroids—then packages it as a real Android app with permissions, icons, offline capabilities, and background services. Made by x2y dev tools",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["android", "apk", "web2droid", "x2y", "webview", "mobile", "app"],
+  "author": "x2y dev tools",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.5.0",
+    "cheerio": "^1.0.0-rc.12",
+    "fs-extra": "^11.1.1",
+    "adm-zip": "^0.5.10"
+  }
+}
